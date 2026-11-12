@@ -17,11 +17,11 @@ services:
       - key: TTS_MODEL
         value: "gemini-3.8-flash-tts"
       - key: EXTENSIONS
-        value: "[{\"p\":\"1\",\"m\":\"2\",\"g\":\"שלום אני ג'מיני שאל אותי כל דבר ובסיום הקש סולמית\",\"x\":\"\"}]"
+        value: "[{\"p\":\"1\",\"m\":\"2\",\"g\":\"שלום אני זיגי שאל אותי כל דבר ובסיום הקש סולמית\",\"x\":\"\"}]"
       - key: MAX_WORDS
-        value: "300"
+        value: "25"
       - key: EXTRA_INSTRUCTION
-        value: "ענה בעברית בקצרה ובתמצות"
+        value: ""
       - key: GEMINI_API_KEYS
         sync: false
       - key: GEMINI_TTS_KEYS
